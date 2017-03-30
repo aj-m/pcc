@@ -5,7 +5,7 @@
 #include "lexer.h"
 #include "status.h"
 
-RTN load_sources(int size, char** sources_arr, void* out){
+enum RTN load_sources(int size, char** sources_arr, void* out){
 	return OK;
 }
 
