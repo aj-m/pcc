@@ -35,3 +35,6 @@
 # Output directory
 bin/
 
+# Vim files
+*.swp
+
