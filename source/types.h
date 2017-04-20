@@ -13,7 +13,16 @@ enum types {
       t_PBCURRENCYX,
       t_PBSTRING,
       t_PBSTRINGFL,
-      t_PBASCIIZ,
-      t_PBFIELD
+      t_PBSTRINGZ,
+      t_PBFIELD,
+      t_PBWSTRING,
+      t_PBWSTRINGFL,
+      t_PBWSTRINGZ,
+      t_PBWFIELD,
+      t_PBVARIANT,
+      t_PBGUID,
+      t_PBIAUTOMATION,
+      t_PBIDISPATCH,
+      t_PBIUNKNOWN
 };
 
