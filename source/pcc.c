@@ -33,11 +33,11 @@ enum RTN load_sources(int size, char** sources_arr, FILE** out){
 	sizes = malloc(sizeof(int) * size);
 	// Store filesizes in array, nonexistent files have size -1
 	for(int i = 0; i < size; i++){
-		sizes[i] = file_exists(sources_arr[i]);
+		sizes[i] = file_size(sources_arr[i]);
 		if(!exists && (sizes[i] != -1)) exists = 1;
 	}
 	for(int i = 0; i < size; i++){
-		if(sizes[i] == -1)
+		if(sizes[i] == -1) continue;
 	}
 	free(sizes);
 	return OK;
