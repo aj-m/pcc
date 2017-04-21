@@ -9,6 +9,9 @@ enum keyword {
        kw_DO,
        kw_WHILE,
        kw_END,
-       kw_PRINT
+       kw_PRINT,
+       kw_FOR,
+       kw_REM,
+       kw_LOCAL
 };
 
