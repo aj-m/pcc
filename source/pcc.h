@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <sys/stat.h>
-#include "keyword.h"
+#include "keywords.h"
 #include "lexer.h"
 #include "status.h"
 
