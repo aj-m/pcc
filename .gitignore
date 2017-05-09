@@ -32,8 +32,11 @@
 *.dSYM/
 *.su
 
-# Output directory
+# Output
 bin/
+
+# Test files
+examples/
 
 # Vim files
 *.swp
