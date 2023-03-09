@@ -3,7 +3,7 @@ CC = gcc
 # Compiler flags
 CFLAGS = -g -Wall
 # Source file(s)
-SOURCE = source/pcc
+SOURCE = src/pcc
 # Output file
 TARGET = bin/pcc
 # Include files
